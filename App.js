@@ -8,13 +8,13 @@ import {
 import { StackNavigator } from 'react-navigation'
 
 import Home from './Componentes/Home/Home'
-import InscripcionPartido from './Componentes/InscripcionPartido/InscripcionPartido'
-import ListadoPartidos from './Componentes/ListaPartidos/ListadoPartidos'
+import TabNavigation from './Componentes/TabNavigation'
+// import ListadoPartidos from './Componentes/ListaPartidos/ListadoPartidos'
 
 const App = StackNavigator({
   Home: { screen: Home },
-  InscripcionPartido: { screen: InscripcionPartido },
-  ListadoPartidos: { screen : ListadoPartidos}
+  TabNavigation: { screen: TabNavigation },
+  // ListadoPartidos: { screen : ListadoPartidos}
 })
 
 export default App;

@@ -7,7 +7,7 @@ var backgroundImage = require('../../assets/Images/background.jpeg');
 export class Home extends Component {
 
   static navigationOptions = {
-      header: null
+      title: "Pichanga Belatrix"
   }
     
   render() {
@@ -22,7 +22,7 @@ export class Home extends Component {
                 block={true}
                 danger
                 style={ styles.margingButton }
-                onPress={ () => this.props.navigation.navigate('InscripcionPartido')}>
+                onPress={ () => this.props.navigation.navigate('TabNavigation')}>
                 <Text style={ styles.buttonText }> Login with Gmail </Text>
             </Button>
 
@@ -30,7 +30,7 @@ export class Home extends Component {
                 block={true}
                 primary
                 style={ styles.margingButton }
-                onPress={ () => this.props.navigation.navigate('InscripcionPartido')}>
+                onPress={ () => this.props.navigation.navigate('TabNavigation')}>
                 <Text style={ styles.buttonText }> Login with Facebook </Text>   
             </Button>   
                           
